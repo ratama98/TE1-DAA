@@ -26,13 +26,13 @@ public class generator {
         saveToFile(numbers, "random_10000.txt");
 
         numbers = generateSortedNumbers(1000);
-        saveToFile(numbers, "sorted_10000.txt");
+        saveToFile(numbers, "sorted_1000.txt");
 
         numbers = generateReverseNumbers(1000);
-        saveToFile(numbers, "reverse_10000.txt");
+        saveToFile(numbers, "reverse_1000.txt");
 
         numbers = generateRandomNumbers(1000);
-        saveToFile(numbers, "random_10000.txt");
+        saveToFile(numbers, "random_1000.txt");
     }
 
     public static ArrayList<Integer> generateSortedNumbers(int n) {
